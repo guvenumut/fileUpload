@@ -10,9 +10,7 @@ var imageSchema = new Schema({
     ipAddres:String,
     userAgent:String
 });
- 
-//Image is a model which has a schema imageSchema
- 
+
 let images=  mongoose.model('Image', imageSchema);
 
 
